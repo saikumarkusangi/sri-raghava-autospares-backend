@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 app.get('/api',(req,res)=>{
-   res.end('hello');
+   res.end('hello world');
 });
 
 
